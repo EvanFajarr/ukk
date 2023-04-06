@@ -37,7 +37,6 @@ Route::group(['middleware' => 'guest:masyarakat'], function () {
 });
 
 
-
 Route::get('/loginPetugas', [LoginAdminController::class, 'index'])->name('loginAdmin');
 Route::post('/loginPetugas', [LoginAdminController::class, 'loginPetugas']);
 

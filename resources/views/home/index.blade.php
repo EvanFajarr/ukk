@@ -57,7 +57,7 @@
               </div>
             <div class="row align-items-center">
               <div class="col-12 col-lg-7 grid-margin grid-margin-lg-0" data-aos="fade-right">
-                <h3 class="m-0"> Happy {{ date('l') }}  {{  auth()->guard('masyarakat')->user()->name  }}</h3>
+                <center>   <h3 class="m-0"> Happy {{ date('l') }}  {{  auth()->guard('masyarakat')->user()->name  }}</h3></center>
                 <div class="col-lg-7 col-xl-6 p-0">
                   <p class="py-4 m-0 text-muted">
                     <div class="row">

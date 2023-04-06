@@ -2,7 +2,10 @@
 
 @extends('template.admin')
 @section('konten')
+@can('admin')
 <a href='{{url('/petugas/create')}}' class="btn btn-outline-success">+</a>
+@endcan
+
 <table class="table table-striped">
     <thead>
         <tr>
